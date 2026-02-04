@@ -2,8 +2,10 @@
 
 ​PlutoXAnalyzer adalah alat analisis statis APK otomatis yang dirancang khusus oleh PlutoXTeam untuk para peneliti keamanan seluler dan antusias modifikasi Android. Tool ini melakukan dekompilasi mendalam untuk memetakan arsitektur keamanan aplikasi, mendeteksi sistem proteksi, dan mengidentifikasi titik lemah untuk keperluan bypass.
 
-​🚀 Fitur Utama
+​🚀 FITUR UTAMA :
+
 ​🛡️ Multi-Dex Forensic Scan: Memindai seluruh folder Smali (DEX 1-5+) secara rekursif untuk mencari logika tersembunyi.  
+
 ​🔑 Login UI & Auth Detection: Mengidentifikasi kelas Java/Smali yang bertanggung jawab atas sistem autentikasi dan form login.  
 
 ​💎 Premium & VIP Identifier: Melacak metode pengecekan status langganan, lisensi Google Play, dan fitur berbayar.
