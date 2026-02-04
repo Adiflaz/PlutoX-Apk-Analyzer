@@ -1,0 +1,145 @@
+=======================================================
+          PLUTOX TEAM - APK ANALYSIS REPORT           
+=======================================================
+TARGET FILE : laragon.apk
+WAKTU SCAN  : Wed Feb  4 15:35:50 WIB 2026
+-------------------------------------------------------
+
+[+] ANALISIS MANIFEST (Android-Permissions)
+-------------------------------------------------------
+Keterangan: Izin ini menentukan akses aplikasi ke sistem.
+Perhatikan 'SYSTEM_ALERT_WINDOW' untuk Floating Login UI
+dan 'ACCESS_SUPERUSER' untuk deteksi Root.
+
+[+] ANALISIS KODE LOGIC (Smali Classes)
+
+[#] KATEGORI: LICENSE_CHECK
+    DESKRIPSI: Mengecek keaslian aplikasi dari Play Store.
+    LOKASI FILE:
+    - Tidak ditemukan -
+
+[#] KATEGORI: PREMIUM_VIP
+    DESKRIPSI: Pengecekan status akun Sultan/Berbayar.
+    LOKASI FILE:
+    - Tidak ditemukan -
+
+[#] KATEGORI: ANTI_TAMPER_PAIRIP
+    DESKRIPSI: Proteksi agar aplikasi tidak bisa dimodifikasi/rebuild.
+    LOKASI FILE:
+    - Tidak ditemukan -
+
+[#] KATEGORI: ROOT_LSPOSED
+    DESKRIPSI: Deteksi lingkungan Root dan Xposed.
+    LOKASI FILE:
+    - Tidak ditemukan -
+
+[#] KATEGORI: LOGIN_SYSTEM
+    DESKRIPSI: Sistem keamanan masuk (Halaman Login).
+    LOKASI FILE:
+workdir/smali/a/c.smali
+workdir/smali/androidx/activity/ComponentActivity.smali
+workdir/smali/androidx/activity/result/潂賁排隆缒仹蔌鲵盨櫌毋黴訪睴融夛痂罼冨冷檮飵怸浕囍.smali
+workdir/smali/androidx/activity/result/遽嘁眼劔憂婄顽珲璓錾侯第釰浔麡炕墋炏扶苧粼咕駿勵茗.smali
+workdir/smali/androidx/activity/梇纼趫湉钕籝铱禮趆尕監西熔緑栯哖灯箠蛳忚伓宍啳筿忙.smali
+workdir/smali/androidx/activity/淤宑椝椔璲鲓禴墔慈杮潚伻缯焽莴澫賣芩餝逗汵顆癆鮆豷.smali
+workdir/smali/androidx/appcompat/app/AlertController$淤宑椝椔璲鲓禴墔慈杮潚伻缯焽莴澫賣芩餝逗汵顆癆鮆豷.smali
+workdir/smali/androidx/appcompat/app/AlertController$蘳酡罶头飥嫀鸡倌剤魻匁烛屳粲堂咠直倃麉鹰髖鸖扼胣枕.smali
+workdir/smali/androidx/appcompat/app/AlertController.smali
+workdir/smali/androidx/appcompat/app/斢衔鬹愠狱堪钓骖禞吳郀沜跲褼弦硠餓軓刧篖憯秃弳垜撤.smali
+workdir/smali/androidx/appcompat/app/淤宑椝椔璲鲓禴墔慈杮潚伻缯焽莴澫賣芩餝逗汵顆癆鮆豷$斢衔鬹愠狱堪钓骖禞吳郀沜跲褼弦硠餓軓刧篖憯秃弳垜撤.smali
+workdir/smali/androidx/appcompat/app/淤宑椝椔璲鲓禴墔慈杮潚伻缯焽莴澫賣芩餝逗汵顆癆鮆豷.smali
+workdir/smali/androidx/appcompat/view/menu/梇纼趫湉钕籝铱禮趆尕監西熔緑栯哖灯箠蛳忚伓宍啳筿忙.smali
+workdir/smali/androidx/appcompat/view/menu/氭泂禍祠胏静補炊筟厍昩穦刜簬喡憈磃谌钭娲愖厤髼鶨蝵.smali
+workdir/smali/androidx/appcompat/widget/SearchView.smali
+workdir/smali/androidx/appcompat/widget/嚬鍢唔蛬喅罩枉釆螔啍鈶嶞苊汥蚆宁魄跲淍菳眄系紨旑孔.smali
+workdir/smali/androidx/appcompat/widget/拂徎开翺渟鿣臞恹蒄靸鑳頭鳋蘑刐鱠烥鏡鮈棯丮岸畫簭嬸$潂賁排隆缒仹蔌鲵盨櫌毋黴訪睴融夛痂罼冨冷檮飵怸浕囍.smali
+workdir/smali/androidx/appcompat/widget/拂徎开翺渟鿣臞恹蒄靸鑳頭鳋蘑刐鱠烥鏡鮈棯丮岸畫簭嬸$遽嘁眼劔憂婄顽珲璓錾侯第釰浔麡炕墋炏扶苧粼咕駿勵茗.smali
+workdir/smali/androidx/appcompat/widget/钣隙糂坧擜淞蓧娝莕鳃癚宋犘记冓缁荫嶎殷鴣毮楱逫髹峋.smali
+workdir/smali/androidx/appcompat/widget/訴笌氟帡甑昆龦貇翲妭婛鑶辬抹駷婁峾璌脗稫鄗沷禄広鎣.smali
+workdir/smali/androidx/appcompat/widget/赞棇鉈閹謃綴凌祅慩焊鳠骖贅訒猘器枈吚鋏扳膉旟巋炸鲯.smali
+workdir/smali/androidx/appcompat/widget/槓亞蚍貺揸樌莩巧鋨哉譔餟胹毮侣嵿窰漮杙挾蝂冮鞩岈鄖.smali
+workdir/smali/androidx/emoji2/text/蘳酡罶头飥嫀鸡倌剤魻匁烛屳粲堂咠直倃麉鹰髖鸖扼胣枕.smali
+workdir/smali/androidx/fragment/app/鎽蚨婜鈔鮀趖鰌榪鰔嚓玵蓢祩蘊邝戠韚擢毎膪押界钍詎藝$斢衔鬹愠狱堪钓骖禞吳郀沜跲褼弦硠餓軓刧篖憯秃弳垜撤.smali
+workdir/smali/androidx/fragment/app/鎽蚨婜鈔鮀趖鰌榪鰔嚓玵蓢祩蘊邝戠韚擢毎膪押界钍詎藝$蘳酡罶头飥嫀鸡倌剤魻匁烛屳粲堂咠直倃麉鹰髖鸖扼胣枕.smali
+workdir/smali/androidx/fragment/app/鎽蚨婜鈔鮀趖鰌榪鰔嚓玵蓢祩蘊邝戠韚擢毎膪押界钍詎藝$淤宑椝椔璲鲓禴墔慈杮潚伻缯焽莴澫賣芩餝逗汵顆癆鮆豷.smali
+workdir/smali/androidx/fragment/app/鎽蚨婜鈔鮀趖鰌榪鰔嚓玵蓢祩蘊邝戠韚擢毎膪押界钍詎藝.smali
+workdir/smali/androidx/lifecycle/ProcessLifecycleInitializer.smali
+workdir/smali/androidx/lifecycle/囩邔厩堿禀漠叵跆攖譳頑皷敐俏歄輕喞踜逕薁妡熇麺逮營$淤宑椝椔璲鲓禴墔慈杮潚伻缯焽莴澫賣芩餝逗汵顆癆鮆豷.smali
+workdir/smali/androidx/lifecycle/囩邔厩堿禀漠叵跆攖譳頑皷敐俏歄輕喞踜逕薁妡熇麺逮營.smali
+workdir/smali/androidx/lifecycle/梇纼趫湉钕籝铱禮趆尕監西熔緑栯哖灯箠蛳忚伓宍啳筿忙$斢衔鬹愠狱堪钓骖禞吳郀沜跲褼弦硠餓軓刧篖憯秃弳垜撤.smali
+workdir/smali/androidx/recyclerview/widget/RecyclerView.smali
+workdir/smali/com/facebook/katana/act/LoginActivity$斢衔鬹愠狱堪钓骖禞吳郀沜跲褼弦硠餓軓刧篖憯秃弳垜撤.smali
+workdir/smali/com/facebook/katana/act/MainActivity.smali
+workdir/smali/com/facebook/katana/act/LoginActivity.smali
+workdir/smali/com/google/android/material/datepicker/読苂釬丽透鎋嬓鋙燩准瘒名睞癆芉賓憞晢隞腅鄀谄鄾麶劾.smali
+workdir/smali/com/google/android/material/datepicker/餿搜觠扚抉椨寬偩銊璐鏻袙连劋溗诰蝧騒覧櫧别絍幂柦楾.smali
+workdir/smali/com/google/android/material/textfield/TextInputLayout.smali
+workdir/smali/偷簆咁檍卒矘暀綨拫鈈鋿磃渗釻狨餥秜嘒吧韚凖瑽啿氮闤/潂賁排隆缒仹蔌鲵盨櫌毋黴訪睴融夛痂罼冨冷檮飵怸浕囍$斢衔鬹愠狱堪钓骖禞吳郀沜跲褼弦硠餓軓刧篖憯秃弳垜撤.smali
+workdir/smali/囋擩臯艿膳卦嬋澁魰煞尕揸軇霭壤賲玭圾镎嬧駓孎唚绣鍡/斢衔鬹愠狱堪钓骖禞吳郀沜跲褼弦硠餓軓刧篖憯秃弳垜撤.smali
+workdir/smali/墾舟臩繥丬侜弔府抠鄹镑鼚闳褆濎鷳岧主馯硨銺碻菤橢瑶/淤宑椝椔璲鲓禴墔慈杮潚伻缯焽莴澫賣芩餝逗汵顆癆鮆豷.smali
+workdir/smali/怉栨鼓蘈嬛养鸒侏篡堄袮竽苢拾啀摠蓜薃弑缑腶嫩蜄櫢炓/淤宑椝椔璲鲓禴墔慈杮潚伻缯焽莴澫賣芩餝逗汵顆癆鮆豷.smali
+workdir/smali/挚梫计聠扞玠陴蠆豈覴瞈薦缲髙墚柬皷馈昒瑞帅物豤唥袄/蘳酡罶头飥嫀鸡倌剤魻匁烛屳粲堂咠直倃麉鹰髖鸖扼胣枕.smali
+workdir/smali/挛迍缿眰簀繂魘侃貾飳鏌稲嚑绲澎埐讽蘷妏驄蕃嗔駤嬺俄/炘鶦抐茻诺鑕其抔盾踖濜訇鳋崱肦訲鸤鲗綇泸後勅迷綖槧.smali
+workdir/smali/揘鶱锵荛章蔸夥訏驆紩她怺捞溤幔簇軌梶唈跘慪監莬劭駱/潂賁排隆缒仹蔌鲵盨櫌毋黴訪睴融夛痂罼冨冷檮飵怸浕囍.smali
+workdir/smali/眮獽嵨逥烪慟災挱晑遠袺髑孊永洸穛菨拫胂罊憣捺硬穘鸱/潂賁排隆缒仹蔌鲵盨櫌毋黴訪睴融夛痂罼冨冷檮飵怸浕囍.smali
+workdir/smali/瞢餔爉涳艎义雑罎孡淆鰺蒋橪椻癃幂葛誧狢訆抠漦卲熓莪/屁歧徔葭翺繳侑兤泰唶穚齊盘紈埈緃他眿楹妦貰顥辚啖祉.smali
+workdir/smali/斻躎佴猖篒鎉懱凨恰抸柁驊珫哤桃皨鮔巷旈鶊忛炚刼愼胺/亗鵱鞠濱彺鿚丐嵗憰鑄圗聟啉蔥糬瀝涩立莧讆嶰郎攣噤晇.smali
+workdir/smali/斻躎佴猖篒鎉懱凨恰抸柁驊珫哤桃皨鮔巷旈鶊忛炚刼愼胺/泗膚埲嵞扎雈庂盒桥焮説窛旷塡絜綄稦襘沟讁骤誢莞殜嘮.smali
+workdir/smali/斻躎佴猖篒鎉懱凨恰抸柁驊珫哤桃皨鮔巷旈鶊忛炚刼愼胺/潂賁排隆缒仹蔌鲵盨櫌毋黴訪睴融夛痂罼冨冷檮飵怸浕囍.smali
+workdir/smali/斻躎佴猖篒鎉懱凨恰抸柁驊珫哤桃皨鮔巷旈鶊忛炚刼愼胺/犂餾殼蟈墽鴕阝易蒘鑓壊皗皞彙埆袯膍缝购盢釔焕駬懓菿.smali
+workdir/smali/斻躎佴猖篒鎉懱凨恰抸柁驊珫哤桃皨鮔巷旈鶊忛炚刼愼胺/苕馢遼麚咎稑宥囡廝睸醓厺旸瘀慣箝縞刏乇緌茻蹉鿨菇鼃.smali
+workdir/smali/斻躎佴猖篒鎉懱凨恰抸柁驊珫哤桃皨鮔巷旈鶊忛炚刼愼胺/遽嘁眼劔憂婄顽珲璓錾侯第釰浔麡炕墋炏扶苧粼咕駿勵茗.smali
+workdir/smali/斻躎佴猖篒鎉懱凨恰抸柁驊珫哤桃皨鮔巷旈鶊忛炚刼愼胺/酕痾沩衅犸唎怔觯鰈惼繮叻蛴斳琈猈秏淴酾薜箼巩蓜鑓歖.smali
+workdir/smali/斻躎佴猖篒鎉懱凨恰抸柁驊珫哤桃皨鮔巷旈鶊忛炚刼愼胺/钣隙糂坧擜淞蓧娝莕鳃癚宋犘记冓缁荫嶎殷鴣毮楱逫髹峋.smali
+workdir/smali/氭泂禍祠胏静補炊筟厍昩穦刜簬喡憈磃谌钭娲愖厤髼鶨蝵/蠱篓鎐哘銽偱獬峇磺樐竕臁昅骥思名蜋槽梠棗铞倠影礯悩$施欻锑杗妋崺綯臢厳玙啣脁迴茪樋魵邬硃襰簋鿠阇杌距樥.smali
+workdir/smali/琺夃滰厃龫鵘涷櫣艦愨瘿茔稃抂痽躠檜朱秿铦輣鈊惝鑸篰/斢衔鬹愠狱堪钓骖禞吳郀沜跲褼弦硠餓軓刧篖憯秃弳垜撤.smali
+workdir/smali/琺夃滰厃龫鵘涷櫣艦愨瘿茔稃抂痽躠檜朱秿铦輣鈊惝鑸篰/淤宑椝椔璲鲓禴墔慈杮潚伻缯焽莴澫賣芩餝逗汵顆癆鮆豷.smali
+workdir/smali/瑶乘魫苟窗逞崣螸齕埼鳏衈霺渍嶢欛鵲嬴錫塱癮犑仒奞鑫/斢衔鬹愠狱堪钓骖禞吳郀沜跲褼弦硠餓軓刧篖憯秃弳垜撤.smali
+workdir/smali/瓨鼩梟諀帉舸佧标蔆痗藱軹璝俳庵犺敜滭伞释髤帡祔鮑籥/斢衔鬹愠狱堪钓骖禞吳郀沜跲褼弦硠餓軓刧篖憯秃弳垜撤.smali
+workdir/smali/瓨鼩梟諀帉舸佧标蔆痗藱軹璝俳庵犺敜滭伞释髤帡祔鮑籥/蘳酡罶头飥嫀鸡倌剤魻匁烛屳粲堂咠直倃麉鹰髖鸖扼胣枕.smali
+workdir/smali/苕馢遼麚咎稑宥囡廝睸醓厺旸瘀慣箝縞刏乇緌茻蹉鿨菇鼃/梇纼趫湉钕籝铱禮趆尕監西熔緑栯哖灯箠蛳忚伓宍啳筿忙.smali
+workdir/smali/蝜返衏戃促睷蟀狍噽顲碣煁瑒啌篇迓蓳圀螔袷淚麁终雪賱/敾塝愚這龜轨磃酬颌硟羓蟥癖厔孉嶓眏职皳灄炛捅閡蟗醙.smali
+workdir/smali/蝜返衏戃促睷蟀狍噽顲碣煁瑒啌篇迓蓳圀螔袷淚麁终雪賱/斢衔鬹愠狱堪钓骖禞吳郀沜跲褼弦硠餓軓刧篖憯秃弳垜撤.smali
+workdir/smali/蝜返衏戃促睷蟀狍噽顲碣煁瑒啌篇迓蓳圀螔袷淚麁终雪賱/施欻锑杗妋崺綯臢厳玙啣脁迴茪樋魵邬硃襰簋鿠阇杌距樥.smali
+workdir/smali/蝜返衏戃促睷蟀狍噽顲碣煁瑒啌篇迓蓳圀螔袷淚麁终雪賱/淤宑椝椔璲鲓禴墔慈杮潚伻缯焽莴澫賣芩餝逗汵顆癆鮆豷.smali
+workdir/smali/蝜返衏戃促睷蟀狍噽顲碣煁瑒啌篇迓蓳圀螔袷淚麁终雪賱/潂賁排隆缒仹蔌鲵盨櫌毋黴訪睴融夛痂罼冨冷檮飵怸浕囍.smali
+workdir/smali/蝜返衏戃促睷蟀狍噽顲碣煁瑒啌篇迓蓳圀螔袷淚麁终雪賱/炘鶦抐茻诺鑕其抔盾踖濜訇鳋崱肦訲鸤鲗綇泸後勅迷綖槧.smali
+workdir/smali/蝜返衏戃促睷蟀狍噽顲碣煁瑒啌篇迓蓳圀螔袷淚麁终雪賱/璯蜖痦單啵蚓馟擎鬥騃堕鬸彺郬邿螫鳾脧花閲諞租墯蹒較.smali
+workdir/smali/蝜返衏戃促睷蟀狍噽顲碣煁瑒啌篇迓蓳圀螔袷淚麁终雪賱/蠱篓鎐哘銽偱獬峇磺樐竕臁昅骥思名蜋槽梠棗铞倠影礯悩.smali
+workdir/smali/蝜返衏戃促睷蟀狍噽顲碣煁瑒啌篇迓蓳圀螔袷淚麁终雪賱/読苂釬丽透鎋嬓鋙燩准瘒名睞癆芉賓憞晢隞腅鄀谄鄾麶劾$斢衔鬹愠狱堪钓骖禞吳郀沜跲褼弦硠餓軓刧篖憯秃弳垜撤.smali
+workdir/smali/蝜返衏戃促睷蟀狍噽顲碣煁瑒啌篇迓蓳圀螔袷淚麁终雪賱/読苂釬丽透鎋嬓鋙燩准瘒名睞癆芉賓憞晢隞腅鄀谄鄾麶劾.smali
+workdir/smali/蝜返衏戃促睷蟀狍噽顲碣煁瑒啌篇迓蓳圀螔袷淚麁终雪賱/遽嘁眼劔憂婄顽珲璓錾侯第釰浔麡炕墋炏扶苧粼咕駿勵茗.smali
+workdir/smali/蝜返衏戃促睷蟀狍噽顲碣煁瑒啌篇迓蓳圀螔袷淚麁终雪賱/鎽蚨婜鈔鮀趖鰌榪鰔嚓玵蓢祩蘊邝戠韚擢毎膪押界钍詎藝.smali
+workdir/smali/訴笌氟帡甑昆龦貇翲妭婛鑶辬抹駷婁峾璌脗稫鄗沷禄広鎣/潂賁排隆缒仹蔌鲵盨櫌毋黴訪睴融夛痂罼冨冷檮飵怸浕囍.smali
+workdir/smali/訴笌氟帡甑昆龦貇翲妭婛鑶辬抹駷婁峾璌脗稫鄗沷禄広鎣/遽嘁眼劔憂婄顽珲璓錾侯第釰浔麡炕墋炏扶苧粼咕駿勵茗.smali
+workdir/smali/革蘇糤叇藘淀仩煶楼脢欯拽飐钳黳瀜妈戱囨尖拝鳛劵褄芴/氭泂禍祠胏静補炊筟厍昩穦刜簬喡憈磃谌钭娲愖厤髼鶨蝵.smali
+workdir/smali/革蘇糤叇藘淀仩煶楼脢欯拽飐钳黳瀜妈戱囨尖拝鳛劵褄芴/遽嘁眼劔憂婄顽珲璓錾侯第釰浔麡炕墋炏扶苧粼咕駿勵茗.smali
+workdir/smali/駉婁舓鴮禌溇誚昷秡賰胶螳軋鼼蝹輭叓賣鴸蛭壩耦綻踹羽/潂賁排隆缒仹蔌鲵盨櫌毋黴訪睴融夛痂罼冨冷檮飵怸浕囍.smali
+workdir/smali/餿搜觠扚抉椨寬偩銊璐鏻袙连劋溗诰蝧騒覧櫧别絍幂柦楾/蘳酡罶头飥嫀鸡倌剤魻匁烛屳粲堂咠直倃麉鹰髖鸖扼胣枕.smali
+
+[#] KATEGORI: FAKE_GPS_CHECK
+    DESKRIPSI: Deteksi penggunaan lokasi palsu/Fake GPS.
+    LOKASI FILE:
+    - Tidak ditemukan -
+
+[+] ANALISIS NATIVE LIBRARY (.so strings)
+Keterangan: Pengecekan keamanan tingkat tinggi di level C++.
+
+>> FILE: workdir/lib/arm64-v8a/libcrashhelper.so
+
+>> FILE: workdir/lib/arm64-v8a/libnative.so
+X509_get0_signature
+X509_signature_print
+X509_get_signature_nid
+CMS_SignerInfo_get0_signature
+o2i_SCT_signature
+SCT_get_signature_nid
+SCT_set1_signature
+i2o_SCT_signature
+SCT_signature_is_complete
+SCT_set_signature_nid
+SCT_set0_signature
+SCT_get0_signature
+X509_signature_dump
+d2i_OCSP_SIGNATURE
+OCSP_SIGNATURE_it

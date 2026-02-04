@@ -1,0 +1,6 @@
+# PlutoXAnalyzer Python Dependencies
+# Digunakan jika Anda menambahkan skrip Python untuk analisis lanjutan
+
+requests==2.31.0
+colorama==0.4.6
+tqdm==4.66.1
